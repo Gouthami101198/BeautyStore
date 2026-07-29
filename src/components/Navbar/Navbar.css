@@ -9,13 +9,15 @@
 
 .navbar-logo a{
     text-decoration:none;
-    font-size:24px;
+     font-size: 1.5rem;
     font-weight:700;
     color:#ff4d88;
+    
 }
 
 .navbar-links{
     display:flex;
+    font-size: 0.9rem;
     align-items:center;
     gap:30px;
 }
@@ -49,6 +51,7 @@
     border:none;
     outline:none;
     margin-left:8px;
+    font-size: 0.85rem;
 }
 
 .icon-btn{
@@ -63,6 +66,7 @@
     color:#222;
     text-decoration:none;
     transition:.3s;
+    font-size: 1rem;
 }
 
 .icon-btn:hover{
