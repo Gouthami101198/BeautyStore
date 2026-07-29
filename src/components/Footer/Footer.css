@@ -13,7 +13,9 @@
 .footer-top h2,
 .footer-top h3{
     margin-bottom:15px;
+  font-size: 1.1rem;
 }
+
 
 .footer-top p,
 .footer-top a{
@@ -21,6 +23,7 @@
     color:#bbb;
     margin-bottom:10px;
     text-decoration:none;
+    font-size: 0.9rem;
 }
 
 .footer-top a:hover{
