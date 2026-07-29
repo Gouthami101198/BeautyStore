@@ -1,0 +1,41 @@
+.comparison{
+    padding:80px 8%;
+}
+
+.comparison h2{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+}
+
+th,
+td{
+    padding:18px;
+    border:1px solid #eee;
+    text-align:center;
+}
+
+th{
+    background:#ff4f87;
+    color:#fff;
+}
+
+tr:nth-child(even){
+    background:#fafafa;
+}
+
+@media(max-width:768px){
+
+table{
+    display:block;
+    overflow-x:auto;
+}
+
+}

@@ -1,0 +1,15 @@
+.skin-filter{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.skin-filter label{
+    font-weight:600;
+}
+
+.skin-filter select{
+    padding:12px;
+    border:1px solid #ddd;
+    border-radius:10px;
+}

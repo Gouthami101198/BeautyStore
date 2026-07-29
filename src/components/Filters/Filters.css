@@ -1,0 +1,52 @@
+.filters{
+    width:280px;
+    background:#fff;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.filters h2{
+    margin-bottom:25px;
+    color:#222;
+    font-size:28px;
+}
+
+.filter-group{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:25px;
+}
+
+.filter-group label{
+    margin-bottom:10px;
+    font-weight:600;
+    color:#444;
+}
+
+.filter-group select,
+.filter-group input{
+    padding:12px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    font-size:15px;
+}
+
+.filter-group input[type="range"]{
+    padding:0;
+    accent-color:#ff4f87;
+}
+
+.filter-group span{
+    margin-top:10px;
+    color:#ff4f87;
+    font-weight:600;
+}
+
+@media(max-width:992px){
+
+.filters{
+    width:100%;
+}
+
+}

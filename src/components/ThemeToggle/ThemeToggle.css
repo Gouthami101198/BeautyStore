@@ -1,0 +1,17 @@
+.theme-toggle{
+    width:42px;
+    height:42px;
+    border:none;
+    border-radius:50%;
+    background:#f7f7f7;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+    font-size:18px;
+}
+
+.theme-toggle:hover{
+    background:#ff4d88;
+    color:#fff;
+}

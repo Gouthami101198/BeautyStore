@@ -1,0 +1,17 @@
+.empty-state{
+    padding:80px 20px;
+    text-align:center;
+}
+
+.empty-state img{
+    width:220px;
+    margin:auto;
+}
+
+.empty-state h2{
+    margin:20px 0 10px;
+}
+
+.empty-state p{
+    color:#777;
+}

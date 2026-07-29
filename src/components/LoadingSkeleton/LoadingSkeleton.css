@@ -1,0 +1,36 @@
+.skeleton{
+    width:260px;
+    padding:20px;
+}
+
+.skeleton-image{
+    width:100%;
+    height:220px;
+    background:#eee;
+    border-radius:15px;
+}
+
+.skeleton-text{
+    height:18px;
+    margin-top:15px;
+    background:#eee;
+    border-radius:8px;
+}
+
+.short{
+    width:60%;
+}
+
+@keyframes shimmer{
+
+0%{opacity:.5;}
+
+50%{opacity:1;}
+
+100%{opacity:.5;}
+
+}
+
+.skeleton div{
+    animation:shimmer 1.5s infinite;
+}

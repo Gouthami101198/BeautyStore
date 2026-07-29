@@ -1,0 +1,99 @@
+.countdown{
+    width:100%;
+    padding:80px 8%;
+    background:linear-gradient(135deg,#ff4f87,#ff8ab3);
+    color:#fff;
+    text-align:center;
+}
+
+.countdown-content h2{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.countdown-content p{
+    font-size:20px;
+    margin-bottom:40px;
+}
+
+.countdown-content p span{
+    font-weight:700;
+}
+
+.countdown-timer{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.time-box{
+    width:120px;
+    height:120px;
+    background:rgba(255,255,255,.15);
+    backdrop-filter:blur(10px);
+    border-radius:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.time-box h3{
+    font-size:40px;
+    margin-bottom:8px;
+}
+
+.time-box span{
+    font-size:16px;
+    text-transform:uppercase;
+}
+
+@media(max-width:768px){
+
+.countdown{
+    padding:60px 5%;
+}
+
+.countdown-content h2{
+    font-size:30px;
+}
+
+.countdown-content p{
+    font-size:16px;
+}
+
+.time-box{
+    width:90px;
+    height:90px;
+}
+
+.time-box h3{
+    font-size:28px;
+}
+
+.time-box span{
+    font-size:13px;
+}
+
+}
+/* Dark Mode */
+
+body.dark .countdown {
+  background: #121212;
+}
+
+body.dark .countdown-content h2,
+body.dark .countdown-content p {
+  color: #ffffff;
+}
+
+body.dark .countdown-box {
+  background: #1f1f1f;
+  color: #ffffff;
+  border: 1px solid #333;
+}
+
+body.dark .countdown-box span {
+  color: #ff4d88;
+}

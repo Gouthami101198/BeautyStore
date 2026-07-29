@@ -1,0 +1,21 @@
+.shade-selector{
+    margin:20px 0;
+}
+
+.shade-list{
+    display:flex;
+    gap:12px;
+    margin-top:15px;
+}
+
+.shade{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    border:3px solid transparent;
+    cursor:pointer;
+}
+
+.shade.active{
+    border-color:#222;
+}

@@ -1,0 +1,11 @@
+.quiz{
+    padding:80px 8%;
+    text-align:center;
+}
+
+.quiz select{
+    margin-top:20px;
+    padding:12px;
+    width:250px;
+    border-radius:10px;
+}
