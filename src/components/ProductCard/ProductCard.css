@@ -2,6 +2,7 @@
   background: #fff;
   border-radius: 20px;
   overflow: hidden;
+  max-width: 260px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
   transition: 0.3s;
   overflow: hidden;
@@ -26,8 +27,8 @@
 
 .product-image img {
   width: 75%;
-  height: 75%;
-  object-fit: contain;
+  height: 220px;
+  object-fit: cover;
   transition: 0.4s;
 }
 
@@ -75,13 +76,13 @@
 
 .product-brand {
   color: #888;
-  font-size: 14px;
+  font-size: 0.8rem;
   margin-bottom: 8px;
 }
 
 .product-name {
   display: block;
-  font-size: 20px;
+  font-size: 1rem;
   font-weight: 600;
   color: #222;
   margin-bottom: 12px;
@@ -110,25 +111,25 @@
 /* Current Price */
 .current-price {
   color: #ff4f87;
-  font-size: 22px;
+  font-size: 1rem;
   font-weight: 700;
 }
 
 /* Old Price */
 .old-price {
   color: #888;
-  font-size: 16px;
+  font-size: 0.85rem;
   text-decoration: line-through;
 }
 
 .cart-btn {
   width: 100%;
-  padding: 14px;
+  font-size: 0.9rem;
+  padding: 10px;
   border: none;
   border-radius: 30px;
   background: #ff4f87;
   color: #fff;
-  font-size: 16px;
   font-weight: 600;
   display: flex;
   justify-content: center;
