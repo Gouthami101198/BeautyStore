@@ -4,12 +4,14 @@
   box-sizing: border-box;
 }
 
-html,
+html {
+  font-size: 15px;
+}
+
 body {
-  width: 100%;
-  overflow-x: hidden;
   font-family: "Poppins", sans-serif;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  font-size: 0.95rem;
+  line-height: 1.5;
 }
 
 body.light {
