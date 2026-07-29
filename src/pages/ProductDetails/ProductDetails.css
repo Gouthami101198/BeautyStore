@@ -30,7 +30,7 @@
 }
 
 .product-right h1{
-    font-size:42px;
+    font-size: 2rem;
     color:#222;
 }
 
@@ -60,6 +60,7 @@
 .description{
     color:#666;
     line-height:1.8;
+    font-size: 0.95rem;
 }
 
 .action-buttons{
@@ -91,7 +92,7 @@
 }
 
 .product-right h1{
-    font-size:32px;
+    font-size: 2rem;
 }
 
 }
@@ -117,6 +118,9 @@
 
 .cart-btn{
     width:100%;
+}
+.product-gallery img {
+  max-height: 420px;
 }
 
 }
