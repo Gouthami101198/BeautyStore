@@ -1,10 +1,59 @@
-.recommendation{
-    padding:80px 8%;
+.recommendation {
+  padding: 80px 8%;
+  background: #fff;
 }
 
-.recommend-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-    gap:30px;
-     height: 180px;
+.recommendation h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 40px;
+}
+
+.recommend-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  align-items: start;
+  justify-items: center;
+}
+
+/* Ensure product cards display correctly */
+.recommend-grid .product-card {
+  width: 100%;
+  max-width: 280px;
+}
+
+/* Dark Mode */
+body.dark .recommendation {
+  background: #121212;
+}
+
+body.dark .recommendation h2 {
+  color: #fff;
+}
+
+/* Responsive */
+
+@media (max-width: 992px) {
+  .recommend-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .recommendation {
+    padding: 60px 20px;
+  }
+
+  .recommendation h2 {
+    font-size: 1.7rem;
+  }
+
+  .recommend-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
 }
