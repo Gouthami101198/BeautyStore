@@ -1,7 +1,10 @@
 .recently-viewed{
-    padding:80px 8%;
+     padding:60px 7%;
 }
 
+.recently-viewed h2{
+    font-size:1.8rem;
+}
 .recent-grid{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
