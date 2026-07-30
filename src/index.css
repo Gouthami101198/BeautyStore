@@ -41,3 +41,8 @@ button,
 .brand-item {
   transition: all 0.3s ease;
 }
+button {
+  font-size: 0.9rem;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
