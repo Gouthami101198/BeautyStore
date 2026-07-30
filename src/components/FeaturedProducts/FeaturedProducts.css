@@ -2,7 +2,7 @@
   width: 100%;
   max-width: 1400px;
   margin: 0 auto;
-  padding: 80px 20px;
+  padding:60px 7%;
   background: #fff8fb;
 }
 .featured-heading{
@@ -30,6 +30,7 @@
 
 .featured-products{
     padding:60px 5%;
+   font-size:2rem;
 }
 
 .featured-heading h2{
