@@ -4,7 +4,7 @@ import products from "../../data/products";
 
 function Recommendation() {
   // Show first 4 products
-  const recommendations = products.slice(0, 2);
+  const recommendations = products.slice(0, 4);
 
   return (
     <section className="recommendation">
