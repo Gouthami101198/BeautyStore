@@ -7,7 +7,7 @@
 .product-container{
     display:grid;
     grid-template-columns:1fr 1fr;
-    gap:60px;
+    gap:50px;
     margin-bottom:80px;
 }
 
@@ -36,7 +36,7 @@
 
 .brand{
     color:#777;
-    font-size:18px;
+    font-size:.95rem;
 }
 
 .price{
@@ -104,11 +104,11 @@
 }
 
 .current{
-    font-size:28px;
+    font-size:1.5rem;;
 }
 
 .old{
-    font-size:18px;
+    font-size:1rem;
 }
 
 .action-buttons{
