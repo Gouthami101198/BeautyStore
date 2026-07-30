@@ -1,13 +1,13 @@
 .countdown{
     width:100%;
-    padding:80px 8%;
+    padding:60px 7%;
     background:linear-gradient(135deg,#ff4f87,#ff8ab3);
     color:#fff;
     text-align:center;
 }
 
 .countdown-content h2{
-    font-size: 2rem;
+    font-size:2rem;
     margin-bottom:15px;
 }
 
@@ -64,8 +64,8 @@
 }
 
 .time-box{
-    width:90px;
-    height:90px;
+    width:75px;
+    height:75px;
 }
 
 .time-box h3{
@@ -73,7 +73,7 @@
 }
 
 .time-box span{
-    font-size:13px;
+    font-size:1.6rem;;
 }
 
 }
