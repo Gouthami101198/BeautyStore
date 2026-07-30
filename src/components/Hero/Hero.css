@@ -1,6 +1,6 @@
 .hero{
     width:100%;
-    min-height:90vh;
+    min-height:80vh;
     display:flex;
     align-items:center;
     justify-content:space-between;
@@ -80,7 +80,7 @@
     flex:1;
     display:flex;
     justify-content:center;
-    max-width: 420px;
+    width: 420px;
 }
 
 .hero-image img{
