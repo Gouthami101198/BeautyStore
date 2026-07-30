@@ -10,7 +10,7 @@
 
 .signup-box {
   width: 100%;
-  max-width: 420px;
+  max-width: 380px;
   background: #ffffff;
   padding: 40px;
   border-radius: 20px;
@@ -22,13 +22,18 @@
   color: #ff4d88;
   margin-bottom: 10px;
 }
-
+.signup-box h2{
+    font-size:1.8rem;
+}
 .signup-box p {
   text-align: center;
   color: #666;
   margin-bottom: 20px;
 }
-
+.signup-box input{
+    height:48px;
+    font-size:.9rem;
+}
 .input-box {
   display: flex;
   align-items: center;
